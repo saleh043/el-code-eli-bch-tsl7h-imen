@@ -23,9 +23,6 @@
       <label for="synthese info">synthese info:</label>
       <input type="number" id="synthese_info" name="synthese info"><br>
 
-
-
-
       <label for="control arabe">Control arabe:</label>
       <input type="number" id="Control_arabe" name="Control arabe"><br>
 
@@ -34,10 +31,6 @@
 
       <label for="synthese arabe">synthese arabe:</label>
       <input type="number" id="synthese_arabe" name="synthese arabe"><br>
-
-
-
-
 
       <label for="control francais">control francais:</label>
       <input type="number" id="control_francais" name="control francais"><br>
@@ -48,9 +41,6 @@
       <label for="synthese francais">synthese francais:</label>
       <input type="number" id="synthese_francais" name="synthese francais"><br>
 
-
-
-
       <label for="control anglais">control anglais:</label>
       <input type="number" id="control_anglais" name="control anglais"><br>
 
@@ -59,9 +49,6 @@
 
       <label for="synthese anglais">synthese anglais:</label>
       <input type="number" id="synthese_anglais" name="synthese anglais"><br>
-
-
-
 
       <label for="control tari5">control tari5:</label>
       <input type="number" id="control_tari5" name="control tari5"><br>
@@ -72,9 +59,6 @@
       <label for="synthese tari5">synthese tari5:</label>
       <input type="number" id="synthese_tari5" name="synthese tari5"><br>
 
-
-
-
       <label for="control jo8rafiya">control jo8rafiya:</label>
       <input type="number" id="control_jo8rafiya" name="control jo8rafiya"><br>
 
@@ -83,9 +67,6 @@
 
       <label for="synthese jo8rafiya">synthese jo8rafiya:</label>
       <input type="number" id="synthese_jo8rafiya" name="synthese jo8rafiya"><br>
-
-
-
 
       <label for="control islamiya">control islamiya:</label>
       <input type="number" id="control_islamiya" name="control islamiya"><br>
@@ -96,10 +77,6 @@
       <label for="synthese islamiya">synthese islamiya:</label>
       <input type="number" id="synthese_islamiya" name="synthese islamiya"><br>
 
-
-
-
-
       <label for="control madaniya">control madaniya:</label>
       <input type="number" id="control_madaniya" name="control madaniya"><br>
 
@@ -108,9 +85,6 @@
 
       <label for="synthese madaniya">synthese madaniya:</label>
       <input type="number" id="synthese_madaniya" name="synthese madaniya"><br>
-
-
-
 
       <label for="control math 1">control math 1:</label>
       <input type="number" id="control_math1" name="control math 1"><br>
@@ -122,9 +96,6 @@
       <input type="number" id="synthese_math" name="synthese math"><br>
 
 
-
-
-
       <label for="control physique">control physique:</label>
       <input type="number" id="control_physique" name="control physique"><br>
 
@@ -133,9 +104,6 @@
 
       <label for="synthese physique">synthese physique:</label>
       <input type="number" id="synthese_physique" name="synthese physique"><br>
-
-
-
 
       <label for="control technique">control technique:</label>
       <input type="number" id="control_technique" name="control technique"><br>
@@ -146,14 +114,8 @@
       <label for="synthese technique">synthese technique:</label>
       <input type="number" id="synthese_technique" name="synthese technique"><br>
 
-
-
-
       <label for="Sport">Sport:</label>
       <input type="number" id="Sport" name="Sport"><br>
-
-
-
 
       <button type="button" onclick="calculateAverage()">e7seb</button>
     </form>
@@ -168,14 +130,11 @@
         var score_info = (moy_info) *3;
 
 
-
         var control_arabe = parseFloat(document.getElementById("control_arabe").value);
         var oral_arabe = parseFloat(document.getElementById("oral_arabe").value);
         var synthese_arabe = parseFloat(document.getElementById("synthese_arabe").value);
         var moy_arabe = (oral_arabe + control_arabe + synthese_arabe + synthese_arabe) /4;
         var score_arabe = (moy_arabe) *2;
-
-
 
         var control_francais = parseFloat(document.getElementById("control_francais").value);
         var oral_francais = parseFloat(document.getElementById("oral_francais").value);
@@ -183,14 +142,11 @@
         var moy_francais = (control_francais + oral_francais + synthese_francais + synthese_francais) /4;
         var score_francais = (moy_francais) *2;
 
-
-
         var control_anglais = parseFloat(document.getElementById("control_anglais").value);
         var oral_anglais = parseFloat(document.getElementById("oral_anglais").value);
         var synthese_anglais = parseFloat(document.getElementById("synthese_anglais").value);
         var moy_anglais = (control_anglais + oral_anglais + synthese_anglais + synthese_anglais) /4;
         var score_anglais = (moy_anglais) *2;
-
 
         var control_tari5 = parseFloat(document.getElementById("control_tari5").value);
         var oral_tari5 = parseFloat(document.getElementById("oral_tari5").value);
@@ -203,7 +159,6 @@
         var synthese_jo8rafiya = parseFloat(document.getElementById("synthese_jo8rafiya").value);
         var score_jo8rafiya = (control_jo8rafiya + oral_jo8rafiya + synthese_jo8rafiya + synthese_jo8rafiya) /4;
 
-
         var control_islamiya = parseFloat(document.getElementById("control_islamiya").value);
         var oral_islamiya = parseFloat(document.getElementById("oral_islamiya").value);
         var synthese_islamiya = parseFloat(document.getElementById("synthese_islamiya").value);
@@ -215,14 +170,11 @@
         var synthese_madaniya = parseFloat(document.getElementById("synthese_madaniya").value);
         var score_madaniya = (oral_madaniya + control_madaniya + synthese_madaniya + synthese_madaniya);
 
-
         var control_math1 = parseFloat(document.getElementById("control_math1").value);
         var control_math2 = parseFloat(document.getElementById("control_math2").value);
         var synthese_math = parseFloat(document.getElementById("synthese_math").value);
         var moy_math = (control_math1 + control_math2 + synthese_math + synthese_math) /4;
         var score_math = (moy_math) *4;
-
-
 
         var tp_physique = parseFloat(document.getElementById("TP_physique").value);
         var control_physique = parseFloat(document.getElementById("control_physique").value);
@@ -230,13 +182,11 @@
         var moy_physique = (tp_physique + control_physique + synthese_physique + synthese_physique) /4;
         var score_physique =(moy_physique) *3;
 
-
         var project_technique = parseFloat(document.getElementById("project_technique").value);
         var control_technique = parseFloat(document.getElementById("control_technique").value);
         var synthese_technique = parseFloat(document.getElementById("synthese_technique").value);
         var moy_technique = (project_technique + control_technique + synthese_technique + synthese_technique) /4;
         var score_technique = (moy_technique) *2;
-
 
         var Sport = parseFloat(document.getElementById("Sport").value);
 
